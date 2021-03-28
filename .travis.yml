@@ -1,3 +1,5 @@
 language: python
-script:
-    - unittest
+python: 
+- "3.7"
+script: 
+- python -m unittest tests.test_operations
