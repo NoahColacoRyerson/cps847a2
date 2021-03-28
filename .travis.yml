@@ -1,4 +1,7 @@
 language: python
+env:
+  global:
+    CODECOV_TOKEN='fdf2a3b9-5e4d-4128-b28b-1ff601720102'
 python: 
 - "3.7"
 script: 
