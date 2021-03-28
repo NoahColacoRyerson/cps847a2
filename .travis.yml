@@ -6,4 +6,4 @@ python:
 - "3.7"
 script: 
 - pip install coverage
-- coverage run unittest test.py
+- coverage run test.py
