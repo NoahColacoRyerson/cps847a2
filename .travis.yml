@@ -18,4 +18,4 @@ deploy:
   region: "us-east-2"
   app: "CPS847a2"
   env: "Cps847a2-env"
-  bucket_name: "elasticbeanstalk-us-east-2-504636672612"
+  bucket_name: "elasticbeanstalk-us-east-2-504636672612" 
