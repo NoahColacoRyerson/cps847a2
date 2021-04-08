@@ -9,3 +9,13 @@ script:
 - python -m unittest test.py
 - coverage run test.py
 - coverage report
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "Encrypted AKIAXK7VQRJSLAPBWTQ6="
+  secret_access_key:
+    secure: "Encypted 7Hq0oVEkTpV2TzZ300HI0nc+1LYzaxCvn5/R1QPC="
+  region: "us-east-2"
+  app: "CPS847a2"
+  env: "Cps847a2-env"
+  bucket_name: "elasticbeanstalk-us-east-2-504636672612"
