@@ -19,8 +19,3 @@ deploy:
   app: "CPS847a2"
   env: "Cps847a2-env"
   bucket_name: "elasticbeanstalk-us-east-2-504636672612"
-  on:
-    repo: NoahColacoRyerson/cps847a2
-    branches:
-      only:
-        - master
